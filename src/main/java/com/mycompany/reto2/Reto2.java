@@ -11,6 +11,8 @@ public class Reto2 {
         String opcion;
         Scanner entrada = new Scanner(System.in);
         
+        System.out.println("Hola mundo");
+        
         ciclo: while (true){
             System.out.println("¿Qué desea realizar?: \n1.Calcular cuadrados. \n2.Suma de números primos. \n3.Desarrollo posibles de bicicleta. \n4.Salir. ");
             opcion = entrada.nextLine();
